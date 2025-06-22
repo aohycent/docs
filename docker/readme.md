@@ -5,6 +5,7 @@ A self-sufficient runtime for containers
 ## Usage:  docker [OPTIONS] COMMAND
 
 ## Common Commands:
+```txt
   run         Create and run a new container from an image
   exec        Execute a command in a running container
   ps          List containers
@@ -18,8 +19,10 @@ A self-sufficient runtime for containers
   search      Search Docker Hub for images
   version     Show the Docker version information
   info        Display system-wide information
+```
 
 ## Management Commands:
+```txt
   builder     Manage builds
   buildx*     Docker Buildx
   checkpoint  Manage checkpoints
@@ -38,16 +41,20 @@ A self-sufficient runtime for containers
   system      Manage Docker
   trust       Manage trust on Docker images
   volume      Manage volumes
+```
 
 ## Swarm Commands:
+```txt
   config      Manage Swarm configs
   node        Manage Swarm nodes
   secret      Manage Swarm secrets
   service     Manage Swarm services
   stack       Manage Swarm stacks
   swarm       Manage Swarm
+```
 
 ## Commands:
+```txt
   attach      Attach local standard input, output, and error streams to a running container
   commit      Create a new image from a container's changes
   cp          Copy files/folders between a container and the local filesystem
@@ -76,17 +83,21 @@ A self-sufficient runtime for containers
   unpause     Unpause all processes within one or more containers
   update      Update configuration of one or more containers
   wait        Block until one or more containers stop, then print their exit codes
+```
 
 Invalid Plugins:
+```txt
   ai          failed to fetch metadata: exit status 0xc000013a
   extension   failed to fetch metadata: exit status 0xc000013a
   init        failed to fetch metadata: exit status 0xc000013a
   model       failed to fetch metadata: exit status 0xc000013a
   sbom        failed to fetch metadata: exit status 0xc000013a
   scout       failed to fetch metadata: exit status 0xc000013a
+```
 
 Global Options:
-      --config string      Location of client config files (default "\.docker")
+```txt
+  --config string      Location of client config files (default "\.docker")
 
   -c, --context string     Name of the context to use to connect to the
                            daemon (overrides DOCKER_HOST env var and
@@ -110,6 +121,7 @@ Global Options:
       --tlsverify          Use TLS and verify the remote
   
   -v, --version            Print version information and quit
+```
 
 Run 'docker COMMAND --help' for more information on a command.
 
